@@ -18,7 +18,7 @@ A simple conversational chatbot powered by a Large Language Model (LLM). It uses
 6. The history can provide context for the next message.
 ## Flowchart
 
-```mermaid
+```
 graph TD
     A[User Message] --> B[Chat History]
     B --> C[LLM]
