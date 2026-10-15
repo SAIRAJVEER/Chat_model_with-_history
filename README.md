@@ -19,12 +19,15 @@ A simple conversational chatbot powered by a Large Language Model (LLM). It uses
 ## Flowchart
 
 ```
-graph TD
-    A[User Message] --> B[Chat History]
-    B --> C[LLM]
-    C --> D[Chatbot Response]
-    D --> E[Update Chat History]
-    E --> A
+User Message  
+↓  
+Chat History  
+↓  
+LLM  
+↓  
+Chatbot Response  
+↓  
+Updated Chat History
 ```
 
 ## Tech Stack
